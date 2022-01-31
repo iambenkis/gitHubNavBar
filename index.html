@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+    <title>Document</title>
+    <!--
+        <box-icon name='book-open'></box-icon> overview
+        <box-icon name='book-bookmark'></box-icon> repository
+        <box-icon name='home-alt'></box-icon> 
+        <box-icon type='logo' name='linkedin-square'></box-icon> 
+        <box-icon name='cube'></box-icon> packages
+        <box-icon name='star'></box-icon> stars
+        <box-icon type='solid' name='book-content'></box-icon> Project
+        <box-icon name='user-circle'></box-icon> propil
+        <box-icon name='search-alt-2' ></box-icon>
+        <box-icon name='bell'></box-icon> noti
+    
+    
+    
+    
+    
+    -->
+</head>
+
+<body>
+    <div class="nav-cont">
+        <div class="logo-cont">
+            <div class="logo">
+                <box-icon name='github' class='vlogo' type='logo'></box-icon>
+                <div class="logo-name"> Github</div>
+            </div>
+            <box-icon name='menu' class="btn-menu"></box-icon>
+        </div>
+        <ul class="nav-list">
+            <li>
+                <box-icon name='search-alt-2' class="search"></box-icon>
+                <input type="text" placeholder="Search...">
+                <span class="tooltip">Search</span>
+            </li>
+            <li>
+                <a href="#">
+                    <box-icon name='user-circle'></box-icon>
+                    <span class="link-name">My Profile</span>
+                </a>
+                <span class="tooltip">My Profile</span>
+            </li>
+            <li>
+                <a href="#">
+                    <box-icon name='book-open'></box-icon>
+                    <span class="link-name">Overview</span>
+                </a>
+                <span class="tooltip">Overview</span>
+            </li>
+            <li>
+                <a href="#">
+                    <box-icon name='book-bookmark'></box-icon>
+                    <span class="link-name">Repositories</span>
+                </a>
+                <span class="tooltip">Repositories</span>
+
+            </li>
+            <li>
+                <a href="#">
+                    <box-icon type='solid' name='book-content'></box-icon>
+                    <span class="link-name">Projects</span>
+                </a>
+                <span class="tooltip">Projects</span>
+            </li>
+            <li>
+                <a href="#">
+                    <box-icon name='cube'></box-icon>
+                    <span class="link-name">Packages</span>
+                </a>
+                <span class="tooltip">Packages</span>
+            </li>
+            <li>
+                <a href="#">
+                    <box-icon name='star'></box-icon>
+                    <span class="link-name">Stars</span>
+                </a>
+                <span class="tooltip">Stars</span>
+            </li>
+            <li>
+                <a href="#">
+                    <box-icon name='bell'></box-icon>
+                    <span class="link-name">Notifications</span>
+                </a>
+                <span class="tooltip">Notifications</span>
+            </li>
+            <li>
+                <a href="#">
+                    <box-icon name='cog'></box-icon>
+                    <span class="link-name">Settings</span>
+                </a>
+                <span class="tooltip">Settings</span>
+            </li>
+        </ul>
+        <div class="footer">
+            <box-icon name='log-out' id="log-out"></box-icon>
+        </div>
+    </div>
+
+</body>
+<script>
+    let btn = document.querySelector(".btn-menu");
+    let navCont = document.querySelector(".nav-cont");
+    let searchBtn = document.querySelector(".search");
+    btn.onclick = function() {
+        navCont.classList.toggle("active");
+    }
+    searchBtn.onclick = function() {
+        navCont.classList.toggle("active");
+    }
+</script>
+
+
+</html>
