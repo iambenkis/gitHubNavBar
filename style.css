@@ -18,7 +18,7 @@
             left: 0;
             height: 100%;
             width: 78px;
-            background: #4d9b54;
+            background: #478030;
             padding: 6px 14px;
             transition: all 0.5s ease;
         }
@@ -132,7 +132,7 @@
             border-radius: 12px;
             outline: none;
             border: none;
-            background: #1d1b33;
+            background: #fcfcfc;
             padding-left: 50px;
             font-size: 18px;
             color: #fff;
@@ -148,16 +148,16 @@
             white-space: nowrap;
         }
         
-        .nav-cont ul li a:hover {
-            background: rgba(255, 255, 255, 0.938);
-            color: #11101d;
-        }
-        
         .vlogo {
             height: 50px;
             min-width: 50px;
             border-radius: 12px;
             text-align: center;
+        }
+        
+        .nav-cont ul li a:hover {
+            background: rgba(255, 255, 255, 0.938);
+            color: #11101d;
         }
         
         .nav-cont ul li a box-icon {
