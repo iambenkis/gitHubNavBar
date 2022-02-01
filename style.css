@@ -201,3 +201,15 @@
             opacity: 1;
             pointer-events: auto;
         }
+        
+        .txt-gh,
+        .txt-db,
+        .txt-menu {
+            color: #478030;
+            font-size: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            top: 80px;
+        }
